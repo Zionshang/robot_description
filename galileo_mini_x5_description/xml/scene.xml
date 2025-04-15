@@ -1,0 +1,4 @@
+<mujoco model="galileo_mini scene">
+    <include file="galileo_mini_x5.xml" />
+    <option timestep="0.001" integrator="RK4" />
+</mujoco>

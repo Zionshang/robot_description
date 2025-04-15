@@ -143,8 +143,8 @@
     <axis
       xyz="0 1 0" />
     <limit
-      lower="-1.0472"
-      upper="4.1888"
+      lower="-4.1888"
+      upper="1.0472"
       effort="100"
       velocity="21" />
   </joint>
@@ -316,8 +316,8 @@
     <axis
       xyz="0 1 0" />
     <limit
-      lower="-1.0472"
-      upper="4.1888"
+      lower="-4.1888"
+      upper="1.0472"
       effort="100"
       velocity="21" />
   </joint>
@@ -527,8 +527,8 @@
     <axis
       xyz="0 1 0" />
     <limit
-      lower="-1.0472"
-      upper="4.1888"
+      lower="-4.1888"
+      upper="1.0472"
       effort="100"
       velocity="21" />
   </joint>
@@ -624,7 +624,7 @@
       </geometry>
     </collision>
   </link>
-  <joint name="RR_foot_joint" type="fixed">
+  <joint name="HR_foot_joint" type="fixed">
     <origin
       xyz="0.032939 0 -0.26149"
       rpy="0 0 0" />
@@ -738,8 +738,8 @@
     <axis
       xyz="0 1 0" />
     <limit
-      lower="-1.0472"
-      upper="4.1888"
+      lower="-4.1888"
+      upper="1.0472"
       effort="100"
       velocity="21" />
   </joint>
