@@ -1,0 +1,17 @@
+<package format="2">
+    <name>bqr3_description</name>
+    <version>1.0.0</version>
+    <description>
+        URDF Description package for bqr3_description
+        urdf改为了标准范式，包括关节转轴、腿的编号与命名，与实机不同！
+    </description>
+    <author>TODO</author>
+    <maintainer email="TODO@email.com"/>
+    <license>BSD</license>
+
+    <exec_depend>joint_state_publisher</exec_depend>
+    <exec_depend>robot_state_publisher</exec_depend>
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>

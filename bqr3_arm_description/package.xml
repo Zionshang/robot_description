@@ -1,0 +1,17 @@
+<package format="2">
+    <name>bqr3_arm_description</name>
+    <version>1.0.0</version>
+    <description>
+        URDF Description package for bqr3_arm_description
+        其中BQR的urdf改为了标准范式，机械臂为自研
+    </description>
+    <author>TODO</author>
+    <maintainer email="TODO@email.com"/>
+    <license>BSD</license>
+
+    <exec_depend>joint_state_publisher</exec_depend>
+    <exec_depend>robot_state_publisher</exec_depend>
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>
