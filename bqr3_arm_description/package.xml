@@ -4,6 +4,7 @@
     <description>
         URDF Description package for bqr3_arm_description
         其中BQR的urdf改为了标准范式，机械臂为自研
+        机械臂关节的标准位置：0,-1.57,2.88,0.26,0
     </description>
     <author>TODO</author>
     <maintainer email="TODO@email.com"/>
