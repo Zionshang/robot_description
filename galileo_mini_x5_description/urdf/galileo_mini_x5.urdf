@@ -835,7 +835,7 @@
       </geometry>
     </collision>
   </link>
-  <joint name="HL_foot_link" type="fixed">
+  <joint name="HL_foot_joint" type="fixed">
     <origin
       xyz="0.0329385085367515 0 -0.261492891464613"
       rpy="0 0 0" />
