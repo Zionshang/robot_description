@@ -623,11 +623,10 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0 0 0.03"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://galileo_v1d6_x5_description/meshes/link0.STL" />
+        <cylinder radius="0.03" length="0.06" />
       </geometry>
     </collision>
   </link>
@@ -637,7 +636,7 @@
     <parent link="base_link" />
     <child link="link0" />
   </joint>
-  
+
   <link name="link1">
     <inertial>
       <origin
@@ -667,16 +666,8 @@
           rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
-    <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh
-          filename="package://galileo_v1d6_x5_description/meshes/link1.STL" />
-      </geometry>
-    </collision>
   </link>
+
   <joint name="joint1" type="revolute">
     <origin
       xyz="0 0 0.0605"
@@ -693,6 +684,7 @@
       effort="100"
       velocity="1000" />
   </joint>
+
   <link name="link2">
     <inertial>
       <origin
@@ -725,13 +717,29 @@
     <collision>
       <origin
         xyz="0 0 0"
+        rpy="1.57 0 0" />
+      <geometry>
+        <cylinder radius="0.03" length="0.06" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin
+        xyz="-0.13 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://galileo_v1d6_x5_description/meshes/link2.STL" />
+        <box size="0.22 0.06 0.05" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin
+        xyz="-0.26 0 0"
+        rpy="1.57 0 0" />
+      <geometry>
+        <cylinder radius="0.03" length="0.06" />
       </geometry>
     </collision>
   </link>
+
   <joint name="joint2" type="revolute">
     <origin
       xyz="0.02 0 0.04"
@@ -748,6 +756,7 @@
       effort="100"
       velocity="1000" />
   </joint>
+
   <link name="link3">
     <inertial>
       <origin
@@ -779,14 +788,22 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0.245 0 -0.056"
+        rpy="1.57 0 0" />
+      <geometry>
+        <cylinder radius="0.028" length="0.05" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin
+        xyz="0.135 0 -0.056"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://galileo_v1d6_x5_description/meshes/link3.STL" />
+        <box size="0.19 0.05 0.04" />
       </geometry>
     </collision>
   </link>
+
   <joint name="joint3" type="revolute">
     <origin
       xyz="-0.264 0 0"
@@ -803,6 +820,7 @@
       effort="100"
       velocity="1000" />
   </joint>
+
   <link name="link4">
     <inertial>
       <origin
@@ -834,14 +852,14 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0.068 0 -0.066"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://galileo_v1d6_x5_description/meshes/link4.STL" />
+        <cylinder radius="0.03" length="0.04" />
       </geometry>
     </collision>
   </link>
+
   <joint name="joint4" type="revolute">
     <origin
       xyz="0.245 0 -0.056"
@@ -858,6 +876,7 @@
       effort="100"
       velocity="1000" />
   </joint>
+
   <link name="link5">
     <inertial>
       <origin
@@ -889,14 +908,14 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+        xyz="0.005 0 0.086"
+        rpy="0 1.57 0" />
       <geometry>
-        <mesh
-          filename="package://galileo_v1d6_x5_description/meshes/link5.STL" />
+        <cylinder radius="0.03" length="0.04" />
       </geometry>
     </collision>
   </link>
+
   <joint name="joint5" type="revolute">
     <origin
       xyz="0.06775 0.0005 -0.0865"
@@ -913,6 +932,7 @@
       effort="100"
       velocity="1000" />
   </joint>
+
   <link name="link6">
     <inertial>
       <origin
@@ -944,14 +964,14 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+        xyz="0.03 0 0"
+        rpy="0 1.57 0" />
       <geometry>
-        <mesh
-          filename="package://galileo_v1d6_x5_description/meshes/link6.STL" />
+        <cylinder radius="0.03" length="0.06" />
       </geometry>
     </collision>
   </link>
+
   <joint name="joint6" type="revolute">
     <origin
       xyz="0.02895 0 0.0865"
@@ -968,6 +988,7 @@
       effort="100"
       velocity="1000" />
   </joint>
+
   <link name="link7">
     <inertial>
       <origin
@@ -1007,6 +1028,7 @@
       </geometry>
     </collision>
   </link>
+
   <joint name="joint7" type="prismatic">
     <origin
       xyz="0.08657 0.024896 -0.0002436"
@@ -1023,6 +1045,7 @@
       effort="100"
       velocity="1000" />
   </joint>
+
   <link name="link8">
     <inertial>
       <origin
@@ -1062,6 +1085,7 @@
       </geometry>
     </collision>
   </link>
+
   <joint name="joint8" type="prismatic">
     <origin
       xyz="0.08657 -0.0249 -0.00024366"
@@ -1078,4 +1102,5 @@
       effort="100"
       velocity="1000" />
   </joint>
+
 </robot>
