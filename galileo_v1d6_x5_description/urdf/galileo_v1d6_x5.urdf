@@ -11,7 +11,7 @@
         <mesh filename="package://galileo_v1d6_description/meshes/TRUCK.STL" scale="1 1 1" />
       </geometry>
       <material name="">
-        <color rgba="0.8 0.4 0 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -35,7 +35,7 @@
         <mesh filename="package://galileo_v1d6_description/meshes/FL_HIP.STL" scale="1 1 1" />
       </geometry>
       <material name="">
-        <color rgba="1 0.4 0.4 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <!-- <collision>
@@ -67,7 +67,7 @@
         <mesh filename="package://galileo_v1d6_description/meshes/FL_THIGH.STL" scale="1 1 1" />
       </geometry>
       <material name="">
-        <color rgba="1 1 0.4 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -105,7 +105,7 @@
         <mesh filename="package://galileo_v1d6_description/meshes/FL_CALF.STL" scale="1 1 1" />
       </geometry>
       <material name="">
-        <color rgba="0.4 1 0.4 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -143,7 +143,7 @@
         <sphere radius="0.026" />
       </geometry>
       <material name="">
-        <color rgba="0 0.5 1 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -175,7 +175,7 @@
         <mesh filename="package://galileo_v1d6_description/meshes/RL_HIP.STL" scale="1 1 1" />
       </geometry>
       <material name="">
-        <color rgba="0.8 1.0 0.8 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <!-- <collision>
@@ -207,7 +207,7 @@
         <mesh filename="package://galileo_v1d6_description/meshes/FL_THIGH.STL" scale="1 1 1" />
       </geometry>
       <material name="">
-        <color rgba="1 0.5 1 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -245,7 +245,7 @@
         <mesh filename="package://galileo_v1d6_description/meshes/FL_CALF.STL" scale="1 1 1" />
       </geometry>
       <material name="">
-        <color rgba="1 0.4 0.4 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -283,7 +283,7 @@
         <sphere radius="0.026" />
       </geometry>
       <material name="">
-        <color rgba="1 1 0.4 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -315,7 +315,7 @@
         <mesh filename="package://galileo_v1d6_description/meshes/FL_HIP.STL" scale="1.0 -1.0 1.0" />
       </geometry>
       <material name="">
-        <color rgba="1 0.4 0.4 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <!-- <collision>
@@ -347,7 +347,7 @@
         <mesh filename="package://galileo_v1d6_description/meshes/FL_THIGH.STL" scale="1.0 -1.0 1.0" />
       </geometry>
       <material name="">
-        <color rgba="1 1 0.4 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -385,7 +385,7 @@
         <mesh filename="package://galileo_v1d6_description/meshes/FL_CALF.STL" scale="1.0 -1.0 1.0" />
       </geometry>
       <material name="">
-        <color rgba="0.4 1 0.4 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -423,7 +423,7 @@
         <sphere radius="0.026" />
       </geometry>
       <material name="">
-        <color rgba="0 0.5 1 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -455,7 +455,7 @@
         <mesh filename="package://galileo_v1d6_description/meshes/RL_HIP.STL" scale="1.0 -1.0 1.0" />
       </geometry>
       <material name="">
-        <color rgba="0.8 1.0 0.8 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <!-- <collision>
@@ -487,7 +487,7 @@
         <mesh filename="package://galileo_v1d6_description/meshes/FL_THIGH.STL" scale="1.0 -1.0 1.0" />
       </geometry>
       <material name="">
-        <color rgba="1 0.5 1 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -525,7 +525,7 @@
         <mesh filename="package://galileo_v1d6_description/meshes/FL_CALF.STL" scale="1.0 -1.0 1.0" />
       </geometry>
       <material name="">
-        <color rgba="1 0.4 0.4 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -563,7 +563,7 @@
         <sphere radius="0.026" />
       </geometry>
       <material name="">
-        <color rgba="1 1 0.4 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -595,7 +595,7 @@
         <mesh filename="package://galileo_v1d6_x5_description/meshes/link0.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.75294 0.75294 0.75294 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -624,7 +624,7 @@
         <mesh filename="package://galileo_v1d6_x5_description/meshes/link1.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.79216 0.81961 0.93333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
   </link>
@@ -649,7 +649,7 @@
         <mesh filename="package://galileo_v1d6_x5_description/meshes/link2.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.75294 0.75294 0.75294 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -692,7 +692,7 @@
         <mesh filename="package://galileo_v1d6_x5_description/meshes/link3.STL" />
       </geometry>
       <material name="">
-        <color rgba="1 0.98431 0.96471 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -729,7 +729,7 @@
         <mesh filename="package://galileo_v1d6_x5_description/meshes/link4.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.79216 0.81961 0.92941 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -760,7 +760,7 @@
         <mesh filename="package://galileo_v1d6_x5_description/meshes/link5.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.69804 0.69804 0.69804 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -791,7 +791,7 @@
         <mesh filename="package://galileo_v1d6_x5_description/meshes/link6.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.89804 0.91765 0.92941 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
