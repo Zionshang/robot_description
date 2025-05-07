@@ -35,12 +35,11 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://bqr3_arm_description/meshes/base_link.STL" />
+        <box size="0.5 0.25 0.1" />
       </geometry>
     </collision>
   </link>
-  
+
   <link name="FR_abd_link">
     <inertial>
       <origin
@@ -994,11 +993,10 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0 0 0.19"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://bqr3_arm_description/meshes/upper_arm.STL" />
+        <cylinder radius="0.02" length="0.38" />
       </geometry>
     </collision>
   </link>
@@ -1049,11 +1047,10 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0 0 0.20"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://bqr3_arm_description/meshes/forearm.STL" />
+        <cylinder radius="0.02" length="0.4" />
       </geometry>
     </collision>
   </link>
@@ -1104,11 +1101,10 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0 0 0.138"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://bqr3_arm_description/meshes/wrist_pitch.STL" />
+        <cylinder radius="0.02" length="0.24" />
       </geometry>
     </collision>
   </link>
