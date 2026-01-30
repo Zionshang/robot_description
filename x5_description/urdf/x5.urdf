@@ -242,9 +242,15 @@ Stephen Brawner (brawner@gmail.com)
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
+      <origin xyz="0.05 -0.023 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://x5_description/meshes/link7.STL" />
+        <box size="0.04 0.004 0.0105" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.015 -0.023 0" rpy="0 0 0" />
+      <geometry>
+        <box size="0.03 0.004 0.036" />
       </geometry>
     </collision>
   </link>
@@ -273,9 +279,15 @@ Stephen Brawner (brawner@gmail.com)
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
+      <origin xyz="0.05 0.023 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://x5_description/meshes/link8.STL" />
+        <box size="0.04 0.004 0.0105" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.015 0.023 0" rpy="0 0 0" />
+      <geometry>
+        <box size="0.03 0.004 0.036" />
       </geometry>
     </collision>
   </link>
