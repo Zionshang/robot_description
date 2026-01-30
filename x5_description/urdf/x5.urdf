@@ -3,8 +3,13 @@
 Stephen Brawner (brawner@gmail.com) 
      Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
-<robot name="x5_description">
-
+<robot name="X5">
+  <material name="black_mat">
+    <color rgba="0.1 0.1 0.1 1" />
+  </material>
+  <material name="silver_mat">
+    <color rgba="0.65 0.65 0.65 1" />
+  </material>
   <link name="link0">
     <inertial>
       <origin xyz="-3.0001E-05 3.0589E-05 0.027324" rpy="0 0 0" />
@@ -16,9 +21,7 @@ Stephen Brawner (brawner@gmail.com)
       <geometry>
         <mesh filename="package://x5_description/meshes/link0.STL" />
       </geometry>
-      <material name="">
-        <color rgba="0.75294 0.75294 0.75294 1" />
-      </material>
+      <material name="black_mat" />
     </visual>
     <collision>
       <origin xyz="0 0 0.03" rpy="0 0 0" />
@@ -39,9 +42,7 @@ Stephen Brawner (brawner@gmail.com)
       <geometry>
         <mesh filename="package://x5_description/meshes/link1.STL" />
       </geometry>
-      <material name="">
-        <color rgba="0.79216 0.81961 0.93333 1" />
-      </material>
+      <material name="black_mat" />
     </visual>
   </link>
 
@@ -64,9 +65,7 @@ Stephen Brawner (brawner@gmail.com)
       <geometry>
         <mesh filename="package://x5_description/meshes/link2.STL" />
       </geometry>
-      <material name="">
-        <color rgba="0.75294 0.75294 0.75294 1" />
-      </material>
+      <material name="black_mat" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="1.57 0 0" />
@@ -107,9 +106,7 @@ Stephen Brawner (brawner@gmail.com)
       <geometry>
         <mesh filename="package://x5_description/meshes/link3.STL" />
       </geometry>
-      <material name="">
-        <color rgba="1 0.98431 0.96471 1" />
-      </material>
+      <material name="silver_mat" />
     </visual>
     <collision>
       <origin xyz="0.245 0 -0.056" rpy="1.57 0 0" />
@@ -144,9 +141,7 @@ Stephen Brawner (brawner@gmail.com)
       <geometry>
         <mesh filename="package://x5_description/meshes/link4.STL" />
       </geometry>
-      <material name="">
-        <color rgba="0.79216 0.81961 0.92941 1" />
-      </material>
+      <material name="black_mat" />
     </visual>
     <collision>
       <origin xyz="0.068 0 -0.066" rpy="0 0 0" />
@@ -175,9 +170,7 @@ Stephen Brawner (brawner@gmail.com)
       <geometry>
         <mesh filename="package://x5_description/meshes/link5.STL" />
       </geometry>
-      <material name="">
-        <color rgba="0.69804 0.69804 0.69804 1" />
-      </material>
+      <material name="black_mat" />
     </visual>
     <collision>
       <origin xyz="0.005 0 0.086" rpy="0 1.57 0" />
@@ -206,9 +199,7 @@ Stephen Brawner (brawner@gmail.com)
       <geometry>
         <mesh filename="package://x5_description/meshes/link6.STL" />
       </geometry>
-      <material name="">
-        <color rgba="0.89804 0.91765 0.92941 1" />
-      </material>
+      <material name="black_mat" />
     </visual>
     <collision>
       <origin xyz="0.03 0 0" rpy="0 1.57 0" />
@@ -237,9 +228,7 @@ Stephen Brawner (brawner@gmail.com)
       <geometry>
         <mesh filename="package://x5_description/meshes/link7.STL" />
       </geometry>
-      <material name="">
-        <color rgba="1 1 1 1" />
-      </material>
+      <material name="black_mat" />
     </visual>
     <collision>
       <origin xyz="0.05 -0.023 0" rpy="0 0 0" />
@@ -274,9 +263,7 @@ Stephen Brawner (brawner@gmail.com)
       <geometry>
         <mesh filename="package://x5_description/meshes/link8.STL" />
       </geometry>
-      <material name="">
-        <color rgba="1 1 1 1" />
-      </material>
+      <material name="black_mat" />
     </visual>
     <collision>
       <origin xyz="0.05 0.023 0" rpy="0 0 0" />
@@ -298,6 +285,7 @@ Stephen Brawner (brawner@gmail.com)
     <child link="link8" />
     <axis xyz="0 -1 0" />
     <limit lower="0" upper="0.044" effort="100" velocity="1000" />
+    <mimic joint="joint7" multiplier="1" offset="0" />
   </joint>
 
 </robot>
