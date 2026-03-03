@@ -1,0 +1,19 @@
+{
+    "cmake.ignoreCMakeListsMissing": true,
+    "urdf-visualizer.packages": {
+        "x5_description": "${workspaceFolder}/x5_description",
+        "a1_description": "${workspaceFolder}/a1_description",
+        "grq20_v2d3_default": "${workspaceFolder}/grq20_v2d3_default",
+        "grq20_v2d3_default_x5": "${workspaceFolder}/grq20_v2d3_default_x5",
+        "nero_description": "${workspaceFolder}/agx_arm_sim/robot_description/nero_description",
+        "piper_description": "${workspaceFolder}/agx_arm_sim/robot_description/piper_description",
+        "piper_h_description": "${workspaceFolder}/agx_arm_sim/robot_description/piper_h_description",
+        "piper_l_description": "${workspaceFolder}/agx_arm_sim/robot_description/piper_l_description",
+        "piper_x_description": "${workspaceFolder}/agx_arm_sim/robot_description/piper_x_description",
+        "realsense2_description": "${workspaceFolder}/agx_arm_sim/robot_description/realsense2_description",
+        "revo2_description": "${workspaceFolder}/agx_arm_sim/robot_description/revo2_description_ros2",
+    },
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "python-envs.pythonProjects": [],
+}
